@@ -4,6 +4,7 @@ let currentCard = null;
 const csvFileInput = document.getElementById('csv-file');
 const cardElement = document.getElementById('flashcard');
 const fullscreenBtn = document.getElementById('fullscreen-btn');
+const resetBtn = document.getElementById('reset-btn');
 
 // --- INITIALIZE APP & FETCH DEFAULT CSV ---
 document.addEventListener('DOMContentLoaded', () => {
@@ -50,6 +51,26 @@ function fetchDefaultCSV() {
             `;
         });
 }
+
+// --- CACHE RESET CONTROLLER ---
+resetBtn.addEventListener('click', () => {
+    // Show a native confirmation prompt so users don't accidentally wipe their list
+    const confirmReset = confirm("Are you sure you want to clear your custom uploaded list and return to the default flashcards?");
+    
+    if (confirmReset) {
+        // Evict the key from browser cache memory
+        localStorage.removeItem('userFlashcards');
+        
+        // Clear out the file input element visual state
+        csvFileInput.value = "";
+        
+        // Re-trigger the background parser to fetch original default data
+        fetchDefaultCSV();
+        
+        console.log("Cache cleared successfully. Reverted to default dataset.");
+    }
+});
+
 
 // --- REUSABLE CSV PARSER ---
 function parseCSVData(text) {
