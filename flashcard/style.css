@@ -119,21 +119,21 @@ body {
 /* Typography Auto-scalers Optimized for Mobile Landscape */
 .character {
     /* Uses vmin (percentage of whichever screen dimension is smaller) to maximize size */
-    font-size: 18vmin; 
+    font-size: 20vmin; 
     font-weight: 700;
     color: var(--text-main);
     line-height: 1.1;
 }
 
 .pinyin {
-    font-size: 7vmin;
+    font-size: 10vmin;
     font-weight: 600;
     color: var(--accent);
     margin-bottom: 8px;
 }
 
 .english {
-    font-size: 5.5vmin;
+    font-size: 6vmin;
     font-weight: 400;
     color: var(--text-muted);
 }
