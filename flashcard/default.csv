@@ -1,9 +1,14 @@
 我,wŏ,I
-你/妳,nĭ,You
-他/她,tā,He/She
+你,nĭ,You
+妳,nĭ,You
+她,tā,She
+他,tā,He
+它,tā,It
 我們,wŏmen ,We
-你們/妳們,nĭmen ,You
-他們/她們,tāmen,They/Them
+你們,nĭmen ,You
+妳們,nĭmen ,You
+他們,tāmen,They/Them
+她們,tāmen,They/Them
 您,nín ,You
 誰,shéi ,Who
 姓名,xìngmíng ,Name
@@ -12,8 +17,9 @@
 中國,zhōngguó ,China
 美國,měiguó ,America
 日本,rìběn ,Japan
-台灣/臺灣,táiwān,Taiwan
-名字(˙ㄗ),míngzi,Name
+台灣,táiwān,Taiwan
+臺灣,táiwān,Taiwan
+名字,míngzi,Name
 家,jiā ,Home
 電話,diànhuà ,Telephone
 時間,shíjiān ,Time Point
@@ -43,13 +49,22 @@
 百,băi ,hundred
 半,bàn ,half
 千,qiān ,thousand
-爸爸/爸,bàba/bà,papa
-媽媽/媽,māma/mā,mama
-哥哥/哥,gēge/gē,older brother
-弟弟/弟,dìdi/dì,younger brother
-姊姊/姐姐/姊/姐,jiějie/jiě,older sister
-妹妹/妹,mèimei/mèi,younger sister
-小孩(子),xiăohái(zi) ,child
+爸爸,bàba,papa
+爸,bà,papa
+媽媽,māma,mama
+媽,mā,mama
+哥哥,gēge,older brother
+哥 ,gē,older brother
+弟弟,dìdi,younger brother
+弟,dì,younger brother
+姊姊,jiějie,older sister
+姐姐,jiějie,older sister
+姊,jiě,older sister
+姐,jiě,older sister
+妹妹,mèimei,younger sister
+妹,mèi ,younger sister
+小孩,xiăohái,child
+孩子,háizi,child
 的,de ,possessive part
 第,dì ,Ordinal Prefix
 分,fēn,minute
@@ -91,7 +106,8 @@
 可以,kěyĭ,can
 上課,shàngkè ,attend class 
 知道,zhīdào ,know
-電視(機),diànshì(jī) ,tv
+電視,diànshì,tv
+視機,shìjī,tv
 水,shuĭ,water
 久,jiŭ,long
 早,zăo ,Early
@@ -104,7 +120,8 @@
 等,děng ,wait
 看,kàn ,look
 就,jiù ,at once
-什麼/甚麼,shénme,what
+什麼,shénme,what
+甚麼,shénme,what
 朋友,péngyŏu ,friend
 東西,dōngxi ,thing
 吧,ba ,indicate suggestions
@@ -120,15 +137,23 @@
 請問,qĭngwèn ,Excuse me
 這,zhè ,This
 那,nà ,that
-公共汽車/公車,gōnggòngqìchē/gōngchē ,bus
-車(子),chē(zi) ,car
+公共汽車,gōnggòngqìchē,bus
+公車,gōngchē ,bus
+車,chē ,car
+車子,chēzi,car
 到,dào ,arrive
 去,qù ,go
 回,huí ,return
 坐,zuò ,sit
-這裡/這裏/這兒,zhèlĭ/zhèr ,here
-那裡/那裏/那兒,nàlĭ/nàr ,there
-哪裡/哪裏/哪兒,nălĭ/năr ,where
+這裡,zhèlĭ,here
+這裏,zhèlĭ,here
+這兒,zhèr ,here
+那裡,nàlĭ,there
+那裏,nàlĭ,there
+那兒,nàr ,there
+哪裡,nălĭ,where
+哪裏,nălĭ,where
+哪兒,năr ,where
 開車,kāichē ,drive
 錢,qián ,money
 多少,duōshăo ,how much
