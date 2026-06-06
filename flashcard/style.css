@@ -31,8 +31,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* Added safe breathing room above the entire interface */
-    padding-top: 25px; 
+    padding-top: 15px; 
 }
 
 /* Top Action Bar Grouping */
