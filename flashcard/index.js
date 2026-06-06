@@ -7,7 +7,19 @@ const fullscreenBtn = document.getElementById('fullscreen-btn');
 
 // --- INITIALIZE APP & FETCH DEFAULT CSV ---
 document.addEventListener('DOMContentLoaded', () => {
-    fetchDefaultCSV();
+   // Note: Added this feature to speed up the system since it will not download csv everytime the user use the system. (06062026) 
+   // Check if the user has a previously saved custom CSV in their cache
+    const savedCards = localStorage.getItem('userFlashcards');
+    
+    if (savedCards) {
+        console.log("Loading custom dataset from browser cache memory.");
+        flashcards = JSON.parse(savedCards);
+        showNextCard();
+    } else {
+        // If cache is empty, pull from your online default.csv file
+        console.log("No cache found. Fetching default.csv.");
+        fetchDefaultCSV();
+    }
 });
 
 function fetchDefaultCSV() {
@@ -67,6 +79,8 @@ csvFileInput.addEventListener('change', function(e) {
         parseCSVData(event.target.result);
 
         if (flashcards.length > 0) {
+            // Note: Added this feature to speed up the system since it will not download csv everytime the user use the system. (06062026) 
+            localStorage.setItem('userFlashcards', JSON.stringify(flashcards));
             showNextCard();
         } else {
             alert("No valid data found in your uploaded CSV. Format: Character,Pinyin,English");

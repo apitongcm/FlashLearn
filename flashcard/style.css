@@ -32,7 +32,7 @@ body {
     align-items: center;
     justify-content: center;
     /* Added safe breathing room above the entire interface */
-    padding-top: 15px; 
+    padding-top: 25px; 
 }
 
 /* Top Action Bar Grouping */
@@ -76,7 +76,7 @@ body {
 .card {
     width: 100%;
     height: 55vh; 
-    max-height: 360px; /* Increased slightly to accommodate larger font sizes */
+    max-height: 360px; 
     min-height: 220px;
     perspective: 1200px; 
     background: transparent;
